@@ -87,7 +87,7 @@ git clone https://github.com/tunsuriya/mtyfilterbot
 cd mtyfilterbot
 # Change The Vars Of bot/__init__.py File Accordingly
 sudo docker build . -t filterbot
-sudo docker run filterbot or sudo docker run -d filterbot
+sudo docker run filterbot (OR) sudo docker run -d filterbot
 </pre>
 </p>
 </details>
