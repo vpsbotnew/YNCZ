@@ -210,7 +210,6 @@ async def auto_filter(bot, update):
 				reply_markup=reply_markup,
 				parse_mode=enums.ParseMode.HTML,
 				protect_content=True,
-				#ttl_seconds=10,
 				reply_to_message_id=update.id
 			)
 
