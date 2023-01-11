@@ -209,7 +209,6 @@ async def auto_filter(bot, update):
 				caption=f"{update.from_user.mention}🧑‍💻,{query}အတွက် ▶️{(len_results)}ရှိ👇\n\n ✉️ဆက်သွယ်ရန်👇 \n<a href='https://t.me/#'>Memberသစ်များ</a> ♡ <a href='https://t.me/#'>ကြော်ငြာရှင်များ</a>",          
 				reply_markup=reply_markup,
 				parse_mode=enums.ParseMode.HTML,
-				protect_content=True,
 				reply_to_message_id=update.id
 			)
 
