@@ -203,9 +203,9 @@ async def auto_filter(bot, update):
 
 		
 		try:
-			await bot.send_animation(
+			await bot.send_photo(
 				chat_id = update.chat.id,
-				animation= "./bot/mtyads.mp4",
+				photo= "./bot/photo.png",
 				caption=f"{update.from_user.mention}🧑‍💻,{query}အတွက် ▶️{(len_results)}ရှိ👇\n\n ✉️ဆက်သွယ်ရန်👇 \n<a href='https://t.me/#'>Memberသစ်များ</a> ♡ <a href='https://t.me/#'>ကြော်ငြာရှင်များ</a>",          
 				reply_markup=reply_markup,
 				parse_mode=enums.ParseMode.HTML,
