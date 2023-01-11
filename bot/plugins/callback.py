@@ -142,8 +142,7 @@ async def cb_navg(bot, update: CallbackQuery):
         #finder = {message.from_user.mention},
     reply_markup = InlineKeyboardMarkup(temp_results)
     text=f"{update.from_user.mention}🧑‍💻,{query}အတွက် ▶️{leng}ရှိ👇\n\n ✉️ဆက်သွယ်ရန်👇 \n<a href='https://t.me/#'>Memberသစ်များ</a> ♡ <a href='https://t.me/tunyaing'>ကြော်ငြာရှင်များ</a>"
-    #photo="",
-    #caption=f"▶️{(leng)}ခု ရှာတွေ့ပါတယ်ဗျ။🔍 **\n\n {update.from_user.mention} ရှာထားတာက 👉 {query}**",                
+               
     try:
         await update.message.edit(
                 text,
