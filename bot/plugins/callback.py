@@ -141,7 +141,7 @@ async def cb_navg(bot, update: CallbackQuery):
         achatId = None
         #finder = {message.from_user.mention},
     reply_markup = InlineKeyboardMarkup(temp_results)
-    text=f"{update.from_user.mention}🧑‍💻,{query}အတွက် ▶️{leng}ခု ရှာတွေ့ပါတယ်။👇\n\n ✉️ဆက်သွယ်ရန်👇 \n<a href='https://t.me/YNVIPMEMBERBOT'>Memberသစ်များ</a> ♡ <a href='https://t.me/YoeNaung'>ကြော်ငြာရှင်များ</a>"
+    text=f"{update.from_user.mention}🧑‍💻,{query}အတွက် ▶️{leng}ခု ရှာတွေ့ပါတယ်။👇\n\nEng Series ပေါင်း 440+ ကျော်ကို တစ်ဝကြီးကြည့်ချင်တယ်ဆိုရင်တော့ အခုပဲ      မင်မင်တို့ရဲ့ YN VIP Channel ကို သတိရလိုက်တော့နော်။\n\nလူကြီးတွေအတွက်လည်း ချန်နယ် ၅ခုပါတဲ့ 🔞18+ VIP🔞 လေး ရှိပါသေးတယ်။\n\nMember ကြေးကလည်း VIP တခုစီကိုမှ Lifetime တစ်သက်တာကို 3000 Kyats ပဲကျသင့်မှာဖြစ်ပါတယ်ဗျ။ရှယ်တန်တဲ့ ရှယ်ပလန်လေးဖြစ်တာကြောင့် ခုပဲမန်ဘာဝင်လိုက်တော့နော်။\n\nမန်ဘာဝင်ရန် 👉 @YNVIPMEMBERBOT\n\nAdmin Account 👉 @YoeNaung\n\n✉️ဆက်သွယ်ရန်👇 \n<a href='https://t.me/YNVIPMEMBERBOT'>Memberသစ်များ</a> ♡ <a href='https://t.me/YoeNaung'>ကြော်ငြာရှင်များ</a>"
                
     try:
         await update.message.edit(
