@@ -205,7 +205,7 @@ async def auto_filter(bot, update):
 		try:
 			await bot.send_photo(
 				chat_id = update.chat.id,
-				photo= "./bot/vipseries.jpg /bot/vip adult sex box.jpg",
+				photo= "./bot/vipseries.jpg",
 				caption=f"{update.from_user.mention}🧑‍💻,{query}အတွက် ▶️{(len_results)}ခု ရှာတွေ့ပါတယ်။👇\n\n ✉️ဆက်သွယ်ရန်👇 \n<a href='https://t.me/YNVIPMEMBERBOT'>Memberသစ်များ</a> ♡ <a href='https://t.me/YoeNaung'>ကြော်ငြာရှင်များ</a>",          
 				reply_markup=reply_markup,
 				parse_mode=enums.ParseMode.HTML,
