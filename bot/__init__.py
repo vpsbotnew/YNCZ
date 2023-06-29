@@ -11,15 +11,15 @@ from logging.handlers import RotatingFileHandler
 from .translation import Translation
 
 # Change Accordingly While Deploying To A VPS
-APP_ID = int("12158462")
+APP_ID = int("20512581")
 
-API_HASH = "0b962717d931f4480c46d56c85d409a5"
+API_HASH = "86e23f5f868190ca18c2a542247e51e6"
 
 BOT_TOKEN = "5989078394:AAFX3-bU_4_8NeM8d2q2TEknJ_SCU45d9GI"
 
 DB_URI = "mongodb+srv://ynmoviefilter:ynmoviefilter@cluster0.6erlpc6.mongodb.net/?retryWrites=true&w=majority"
 
-USER_SESSION = "BQCJnMPxcQiJl8mq0nwxcbbZjH2BwdNYrLvNU-R8BXkPgu3dd-e7T8ku5gzPAk_4_6Ti_lkx3DQqrWsZIYDRrx7d4l99d8oaGIIYviuiBzmSdCERYZP7BsVG1qBZEgppoInuE3F8vKIS_AlQGNwH1L89EJ7CTDyhLIl91TrcVtKuPksHSZgeMRCTn78A74oThhAlk5CXzENypMNmDflojVatwiPH9P0iQ5kAcnop8Q4fWDsPda-wCJmoapmEQMPHYylrkfFZJX2jC2LAdqHjZI1qbQcmg3suvxV6XHSPTJMa4cxUxj674oqVuo8qsXxD1dLg3LHjvSqpqY9JpdRbsrX0UFsxVQA"
+USER_SESSION = "BQE4_0UAbQeeA3m9KmAIhhapFsnDSkRc2iDDqzzfHZWZ7G36ESdBOgpEcDcrTNWFkOWlVHeWPJR3KxFAI7jo9KDSgPPm4hYzk54Qpc3zjEjjQCJ79QRBat7joCHmJngv91rTitCgP8pplOWy1OTTPAXFiu9Q06_yoyj4vDR8yzvUUDb3vtIy6uSvBziI1aX6bu9e7HuGK9A6GGB8g0bqLprJh9WoFHAXOmI9xU7lHWVD62X22aMpS318Zo5brSRE9NRJXn4lFU72NhRZSduIVX5p9UgBSUmTjBQzkVj_KhNDjCL2PFVNmvDcGg2hU7Tc629eMHgqQaDKhUQSEadePBfdaxpcdQAAAAFeEmwDAA"
 
 VERIFY = {}
 
