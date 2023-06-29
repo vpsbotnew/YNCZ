@@ -205,8 +205,8 @@ async def auto_filter(bot, update):
 		try:
 			await bot.send_photo(
 				chat_id = update.chat.id,
-				photo= "./bot/vipseries.jpg",
-				caption=f"{update.from_user.mention}🧑‍💻,{query}အတွက် ▶️{(len_results)}ခု ရှာတွေ့ပါတယ်။👇\n\n ✉️ဆက်သွယ်ရန်👇 \n<a href='https://t.me/YNVIPMEMBERBOT'>Memberသစ်များ</a> ♡ <a href='https://t.me/YoeNaung'>ကြော်ငြာရှင်များ</a>",          
+				photo= "./bot/vipseries.jpg vip adult sex box.jpg",
+				caption=f"{update.from_user.mention}🧑‍💻,{query}အတွက် ▶️{(len_results)}ခု ရှာတွေ့ပါတယ်။👇\n\nEng Series ပေါင်း 440+ ကျော်ကို တစ်ဝကြီးကြည့်ချင်တယ်ဆိုရင်တော့ အခုပဲ      မင်မင်တို့ရဲ့ YN VIP Channel ကို သတိရလိုက်တော့နော်။\n\nလူကြီးတွေအတွက်လည်း ချန်နယ် ၅ခုပါတဲ့ 🔞18+ VIP🔞 လေး ရှိပါသေးတယ်။\n\nMember ကြေးကလည်း VIP တခုစီကိုမှ Lifetime တစ်သက်တာကို 3000 Kyats ပဲကျသင့်မှာဖြစ်ပါတယ်ဗျ။ရှယ်တန်တဲ့ ရှယ်ပလန်လေးဖြစ်တာကြောင့် ခုပဲမန်ဘာဝင်လိုက်တော့နော်။\n\nမန်ဘာဝင်ရန် 👉 @YNVIPMEMBERBOT\n\nAdmin Account 👉 @YoeNaung\n\n✉️ဆက်သွယ်ရန်👇 \n<a href='https://t.me/YNVIPMEMBERBOT'>Memberသစ်များ</a> ♡ <a href='https://t.me/YoeNaung'>ကြော်ငြာရှင်များ</a>",          
 				reply_markup=reply_markup,
 				parse_mode=enums.ParseMode.HTML,
 				reply_to_message_id=update.id
